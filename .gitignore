@@ -1,0 +1,14 @@
+## git не будет обращать внимания на целую папку pycache:
+__pycache__/
+#
+## git будет игнорировать с любым именем у которого расширение pyc pyo pyd
+*.py[cod]
+#
+## будет игноророваться конкретный файл с именем docker-compose.yaml
+docker-compose.yaml
+#
+## будет игнорировать каталог log
+log/
+#
+## будет игнорироваться файл products.json внутри каталога resources
+resources/products.json
