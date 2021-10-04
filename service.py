@@ -1,2 +1,3 @@
-from constants import OFFLINE_STATE
-print(OFFLINE_STATE)
+from constants import ONLINE_STATE
+
+print(ONLINE_STATE)
